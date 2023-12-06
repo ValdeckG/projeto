@@ -1,0 +1,37 @@
+
+Vaideck Gomes do Carmo     01306463
+// Crianda base banco de dados
+
+ 
+
+CREATE DATABASE `museu`; 
+
+ 
+
+USE `museu`; 
+
+ 
+
+CREATE TABLE `expo` ( 
+
+  `id` int NOT NULL AUTO_INCREMENT, 
+
+  `nome` varchar(30) NOT NULL, 
+
+  `data` date, 
+
+  `descricao` varchar(30), 
+
+) 
+
+ insert into expo values ('Insetos','1099-08-17','xxxxxxxxxxxxx'),('Luzia','1099-08-17','xxxxxxxxxxxxx'), 
+
+ ('Preguiça gigante','1099-08-17','xxxxxxxxxxxxx'),('Plantas','1099-08-17','xxxxxxxxxxxxx'), 
+
+ ('Tereza Cristina','1099-08-17','xxxxxxxxxxxxx'), 
+
+ ('Artes com Dinos','1099-08-17','xxxxxxxxxxxxx'); 
+
+ 
+
+select * from expo; 
